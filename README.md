@@ -77,9 +77,7 @@ DATASET_ROOT/
 
 ➡️ **Dataset download links:**
 
-- Training set: **[ADD LINK HERE]**
-- Validation set: **[ADD LINK HERE]**
-- Test set: **[ADD LINK HERE]**
+https://falcon.duality.ai/secure/documentation/hackathon-segmentation-desert?utm_source=hackathon&utm_medium=instructions&utm_campaign=GHR2
 
 ---
 
