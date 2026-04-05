@@ -1,10 +1,10 @@
-# 🚀 Off‑Road Semantic Segmentation with DINOv2
+#  Off‑Road Semantic Segmentation with DINOv2
 
 > Lightweight, fast‑training semantic segmentation pipeline using **DINOv2 features + ConvNeXt‑style head**, optimized for hackathon‑scale datasets and limited GPU time.
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 This project focuses on **pixel‑level off‑road scene understanding** using a frozen **DINOv2 Vision Transformer backbone** and a lightweight **segmentation head**.
 
@@ -17,7 +17,7 @@ The goal was to:
 
 ---
 
-## 📊 Final Results
+##  Final Results
 
 | Model | Description | Val IoU | Dice / F1 |
 |------|-------------|---------|-----------|
@@ -31,7 +31,7 @@ The goal was to:
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 project/
@@ -57,7 +57,7 @@ project/
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 The dataset is **not included** in this repository.
 
@@ -75,16 +75,16 @@ DATASET_ROOT/
     └── Color_Images/
 ```
 
-➡️ **Dataset download links:**
+ **Dataset download links:**
 
 https://falcon.duality.ai/secure/documentation/hackathon-segmentation-desert?utm_source=hackathon&utm_medium=instructions&utm_campaign=GHR2
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/offroad-segmentation.git
+git clone https://github.com/rawwwj00/offroad-segmentation.git
 
 cd offroad-segmentation
 
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🏋️ Training
+##  Training
 
 Example:
 
@@ -112,7 +112,7 @@ python scripts/train_model_E.py --seed 46
 
 ---
 
-## 🔍 Evaluation
+##  Evaluation
 
 Compute validation IoU:
 
@@ -135,7 +135,7 @@ Outputs:
 
 ---
 
-## 📈 Visualizations Included
+##  Visualizations Included
 
 - Training loss vs epoch
 - Validation IoU vs epoch
@@ -150,7 +150,7 @@ outputs/plots/
 ```
 
 ---
-## 🖼️ Segmentation Results
+##  Segmentation Results
 
 <p align="center">
   Input Image:<img src="outputs/visuals/input_1.png" width="400" height="250"/>
@@ -160,7 +160,7 @@ outputs/plots/
 
 ---
 
-## 🏎️ Key Techniques Used
+##  Key Techniques Used
 
 - **Frozen DINOv2 backbone** for fast convergence
 - **ConvNeXt‑style segmentation head**
@@ -171,7 +171,7 @@ outputs/plots/
 
 ---
 
-## 🧾 Report
+##  Report
 
 Full methodology and analysis available in:
 
@@ -181,7 +181,7 @@ docs/report.pdf
 
 ---
 
-## 🤝 Acknowledgements
+##  Acknowledgements
 
 - Meta AI — **DINOv2**
 - Albumentations — augmentation library
@@ -189,7 +189,7 @@ docs/report.pdf
 
 ---
 
-## ⭐ If this helped
+##  If this helped
 
-Drop a ⭐ on the repo — it helps a lot!
+Drop a  on the repo — it helps a lot!
 
